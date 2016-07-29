@@ -1,0 +1,2 @@
+# collector
+A syslog collector
