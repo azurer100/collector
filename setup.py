@@ -10,6 +10,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
+    'MySQL-python',
     # TODO: put package requirements here
 ]
 
@@ -24,12 +25,17 @@ setup(
     long_description=readme + '\n\n' + history,
     author="MY",
     author_email='my@163.com',
-    url='https://github.com/azurer100/collector',
+    url='',
     packages=[
         'collector',
     ],
     package_dir={'collector':
                  'collector'},
+    entry_points={
+        'console_scripts': [
+            'collector=collector.collector:main'
+        ]
+    },
     include_package_data=True,
     install_requires=requirements,
     zip_safe=False,
@@ -38,13 +44,7 @@ setup(
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 2.7'
     ],
     test_suite='tests',
     tests_require=test_requirements

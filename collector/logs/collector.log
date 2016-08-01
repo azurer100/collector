@@ -1,0 +1,9 @@
+29 Jul 2016 23:59:25 - root - INFO - starting collector...
+29 Jul 2016 23:59:25 - root - INFO - config sections: ['db', 'syslog', 'other']
+29 Jul 2016 23:59:35 - root - ERROR - mysql can not be connected: (2003, "Can't connect to MySQL server on '192.168.1.138' (110)")
+29 Jul 2016 23:59:35 - root - INFO - syslog is start to collect
+01 Aug 2016 20:58:24 - root - INFO - starting collector...
+01 Aug 2016 20:58:24 - root - INFO - config sections: ['db', 'syslog', 'other']
+01 Aug 2016 20:58:24 - root - ERROR - error bind syslog port: (98, 'Address already in use')
+01 Aug 2016 20:58:34 - root - ERROR - mysql can not be connected: (2003, "Can't connect to MySQL server on '192.168.1.138' (110)")
+01 Aug 2016 20:58:34 - root - INFO - syslog is start to collect
