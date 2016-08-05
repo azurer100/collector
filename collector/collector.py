@@ -15,6 +15,7 @@ It defines classes_and_methods
 import ConfigParser
 import socket, time, string, logging
 import MySQLdb
+import encode
 from encode import Encode
 
 logging.basicConfig(level=logging.DEBUG,

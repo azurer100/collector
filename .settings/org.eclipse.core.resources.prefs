@@ -2,4 +2,7 @@ eclipse.preferences.version=1
 encoding//collector/__init__.py=utf-8
 encoding//collector/collector.py=utf-8
 encoding//collector/encode.py=utf-8
+encoding//tests/__init__.py=utf-8
+encoding//tests/test_collector.py=utf-8
 encoding/setup.py=utf-8
+encoding/travis_pypi_setup.py=utf-8
